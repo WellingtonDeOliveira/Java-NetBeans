@@ -31,7 +31,7 @@ public class Exercicio06 {
                 }
                 if(div == 1){
                     System.out.print(vetor[i] + " ");
-                    System.out.println("Vetor na posição [" + i + "]");
+                    System.out.println("Número primo na posição [" + i + "]");
                 }
             }
     }
