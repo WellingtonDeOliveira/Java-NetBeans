@@ -12,11 +12,15 @@ public class Exercicio04 {
          Scanner scan = new Scanner(System.in);
          System.out.print("Digite o tamanho do vetor: ");
          int n = scan.nextInt();
-         int aux = 9999999, pos =0;
+         int aux, pos =0;
          int vetor[] = new int[n];
          for(int i = 0; i < vetor.length; i++){
              System.out.print("Digite o " + (i+1) + "° : ");
              vetor[i] = scan.nextInt();
+
+         }
+         aux = vetor[0];
+         for(int i = 0; i < vetor.length; i++){
              if(aux > vetor[i]){
                  aux = vetor[i];
                  pos = i;
