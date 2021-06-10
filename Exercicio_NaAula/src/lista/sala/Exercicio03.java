@@ -18,5 +18,6 @@ public class Exercicio03 {
                  System.out.print(i + " ");
              }
          }
+         System.out.println(" ");
     }
 }
