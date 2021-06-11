@@ -8,16 +8,16 @@ public class Exercicio05 {
             Exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
             Escreva um programa para imprimir a s´erie de FIBONACCI até o 10º termo.
         */
-        int pause = 0;
-        int next = 0;
-        int ant = 1;
+        int aux1 = 0;
+        int aux2 = 1;
+        int aux3 = 0;
         // desculpa por ter printado os dois primeiros termos dessa maneira.
-        System.out.print("0 1 ");
+        System.out.print(aux1 + " " + aux2 + " ");
         for(int i = 0; i < 8; i++){
-            next = pause + ant;
-            pause = ant;
-            ant = next;
-            System.out.print(next + " ");
+            aux3 = aux2 + aux1;
+            aux1 = aux2;
+            aux2 = aux3;
+            System.out.print(aux3 + " ");
         }
     }
 }
