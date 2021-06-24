@@ -26,5 +26,4 @@ public class Empresa {
             System.out.println(lista.get(i).toString());
         }
     }
-    
 }
